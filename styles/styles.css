@@ -1,10 +1,29 @@
-body {
-  background: lightgrey;
+:root {
+  --primary-color: #497174;
+  --background-color: #eff5f5;
+  --accent-color: #eb6440;
 }
+
 h1 {
   font-family: "Karla", sans-serif;
   font-weight: bold;
+  text-align: center;
+  font-size: 48px;
 }
-p {
+h2 {
   font-family: "Inter", sans-serif;
+  font-weight: normal;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 40px;
+  color: var(--primary-color);
+}
+.hero {
+  padding: 80px 0px 40px 0px;
+  background: var(--background-color);
+}
+
+.header {
+  max-height: 320px;
+  width: 100%;
 }
