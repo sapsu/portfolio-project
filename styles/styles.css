@@ -4,7 +4,7 @@
   --accent-color: #eb6440;
 }
 .header {
-  max-height: 350px;
+  max-height: 400px;
   width: 100%;
 }
 
@@ -15,7 +15,8 @@ h1 {
   font-size: 48px;
   margin-top: 20px;
 }
-h2 {
+h2,
+h3 {
   font-family: "Inter", sans-serif;
   font-weight: normal;
   font-size: 32px;
@@ -33,4 +34,13 @@ h2 {
   margin: 0 auto;
   max-width: 200px;
   margin-top: -100px;
+}
+.showcase {
+  height: 300px;
+  width: 400px;
+}
+
+.showcase-grid {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
