@@ -3,12 +3,17 @@
   --background-color: #eff5f5;
   --accent-color: #eb6440;
 }
+.header {
+  max-height: 350px;
+  width: 100%;
+}
 
 h1 {
   font-family: "Karla", sans-serif;
   font-weight: bold;
   text-align: center;
   font-size: 48px;
+  margin-top: 20px;
 }
 h2 {
   font-family: "Inter", sans-serif;
@@ -19,11 +24,13 @@ h2 {
   color: var(--primary-color);
 }
 .hero {
-  padding: 80px 0px 40px 0px;
+  padding: 0 0 40px 0;
   background: var(--background-color);
 }
 
-.header {
-  max-height: 350px;
-  width: 100%;
+#avatar {
+  display: block;
+  margin: 0 auto;
+  max-width: 200px;
+  margin-top: -100px;
 }
