@@ -1,3 +1,10 @@
 body {
-  background: blue;
+  background: lightgrey;
+}
+h1 {
+  font-family: "Karla", sans-serif;
+  font-weight: bold;
+}
+p {
+  font-family: "Inter", sans-serif;
 }
