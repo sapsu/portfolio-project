@@ -95,7 +95,7 @@ i {
   font-family: "Inter", sans-serif;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   h1 {
     font-size: 28px;
   }
@@ -106,6 +106,9 @@ i {
   h2 {
     padding: 20px;
   }
+  h3 {
+    margin-top: 0;
+  }
   #avatar {
     max-width: 100px;
     margin-top: -50px;
@@ -113,5 +116,8 @@ i {
   .showcase {
     height: 200px;
     width: 300px;
+  }
+  .navigation-link {
+    padding: 10px 20px;
   }
 }
