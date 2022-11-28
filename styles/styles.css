@@ -45,15 +45,25 @@ h3 {
   margin-bottom: 100px;
 }
 
-a {
+.showcase-link {
   font-size: 18px;
   text-decoration: none;
   color: var(--accent-color);
 }
 
+a {
+  font-size: 18px;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
 a:hover {
   color: var(--primary-color);
   text-decoration: underline;
+}
+i {
+  font-size: 18px;
+  color: var(--primary-color);
 }
 
 @media (max-width: 900px) {
@@ -70,5 +80,9 @@ a:hover {
   #avatar {
     max-width: 100px;
     margin-top: -50px;
+  }
+  .showcase {
+    height: 200px;
+    width: 300px;
   }
 }
