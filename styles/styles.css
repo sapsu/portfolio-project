@@ -65,6 +65,11 @@ h3 {
   border-radius: 5px;
   border: 1px solid var(--accent-color);
   color: var(--accent-color);
+  transition: ease-in 200ms all;
+}
+.navigation-link:hover {
+  background-color: var(--accent-color);
+  color: white;
 }
 
 .footer-link:hover,
