@@ -65,6 +65,19 @@ i {
   font-size: 18px;
   color: var(--primary-color);
 }
+.about-me-content {
+  padding: 40px;
+  background: var(--background-color);
+}
+
+.about-me-content p {
+  max-width: 600px;
+  display: block;
+  margin: 20px auto;
+  font-size: 20px;
+  color: var(--primary-color);
+  font-family: "Inter", sans-serif;
+}
 
 @media (max-width: 900px) {
   h1 {
