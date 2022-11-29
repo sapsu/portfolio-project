@@ -68,6 +68,11 @@ h3 {
   color: var(--accent-color);
   transition: ease-in 200ms all;
 }
+.projects-link {
+  display: block;
+  margin: 40px auto;
+  max-width: 188px;
+}
 .navigation-link:hover {
   background-color: var(--accent-color);
   color: white;
