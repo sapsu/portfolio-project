@@ -68,11 +68,7 @@ h3 {
   color: var(--accent-color);
   transition: ease-in 200ms all;
 }
-.projects-link {
-  display: block;
-  margin: 40px auto;
-  max-width: 188px;
-}
+
 .navigation-link:hover {
   background-color: var(--accent-color);
   color: white;
@@ -118,6 +114,9 @@ i {
     padding: 20px;
     margin: 0;
   }
+  .about-me-content {
+    padding: 20px;
+  }
   .about-me-content p,
   p {
     font-size: 14px;
@@ -138,9 +137,6 @@ i {
   .navigation-link {
     padding: 10px 15px;
     font-size: 15px;
-  }
-  .projects-link {
-    max-width: 138px;
   }
   .open-source,
   .showcase-link {
