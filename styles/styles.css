@@ -101,6 +101,10 @@ i {
 
   font-family: "Inter", sans-serif;
 }
+.open-source {
+  font-size: 18px;
+  padding-bottom: 5px;
+}
 
 @media (max-width: 1000px) {
   h1 {
