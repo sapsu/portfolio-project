@@ -133,4 +133,8 @@ i {
   .navigation-link {
     padding: 10px 20px;
   }
+  .homepage-link {
+    display: block;
+    margin: 0 auto;
+  }
 }
