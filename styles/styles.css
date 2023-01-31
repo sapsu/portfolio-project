@@ -3,10 +3,6 @@
   --background-color: #f5f5f5;
   --accent-color: #f05454;
 }
-.header {
-  max-height: 400px;
-  width: 100%;
-}
 
 h1 {
   font-family: "Karla", sans-serif;
@@ -22,18 +18,27 @@ h3 {
   font-size: 32px;
   text-align: center;
   margin-top: 40px;
-  color: var(--primary-color);
+}
+.intro {
+  color: var(--background-color);
 }
 .hero {
-  padding: 0 0 40px 0;
-  background: var(--background-color);
+  padding: 40px 0;
+  background-image: linear-gradient(
+      rgba(48, 71, 94, 0.5),
+      rgba(48, 71, 94, 0.5)
+    ),
+    url("/images/horizonofmarbella.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #avatar {
   display: block;
   margin: 0 auto;
   max-width: 200px;
-  margin-top: -100px;
+  margin-top: 40px;
 }
 .showcase {
   height: 300px;
@@ -128,7 +133,7 @@ i {
 
   #avatar {
     max-width: 100px;
-    margin-top: -40px;
+    margin-top: 30px;
   }
   .showcase {
     height: 200px;
