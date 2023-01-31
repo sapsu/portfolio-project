@@ -22,6 +22,10 @@ h3 {
 .intro {
   color: var(--background-color);
 }
+.header {
+  margin-top: 60px;
+  color: white;
+}
 #saana {
   font-family: "Dancing Script", cursive;
   color: white;
@@ -97,6 +101,7 @@ i {
 .about-me-content {
   padding: 40px;
   background: var(--background-color);
+  line-height: 2em;
 }
 
 .about-me-content p {
