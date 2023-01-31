@@ -13,7 +13,7 @@ h1 {
 }
 h2,
 h3 {
-  font-family: "Inter", sans-serif;
+  font-family: "Karla", sans-serif;
   font-weight: normal;
   font-size: 32px;
   text-align: center;
@@ -21,6 +21,11 @@ h3 {
 }
 .intro {
   color: var(--background-color);
+}
+#saana {
+  font-family: "Dancing Script", cursive;
+  color: white;
+  font-size: 60px;
 }
 .hero {
   padding: 40px 0;
@@ -38,7 +43,7 @@ h3 {
   display: block;
   margin: 0 auto;
   max-width: 200px;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 .showcase {
   height: 300px;
