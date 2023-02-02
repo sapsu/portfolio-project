@@ -102,17 +102,19 @@ i {
   color: var(--background-color);
 }
 .about-me-content {
-  padding: 40px;
   background: var(--background-color);
   line-height: 2em;
+  max-width: 1000px;
+  padding: 40px;
 }
 
 .about-me-content p {
-  max-width: 600px;
-  display: block;
-  margin: 20px auto;
   font-size: 18px;
   text-align: justify;
+}
+.about-images {
+  width: 300px;
+  margin-top: 30px;
 }
 .open-source {
   font-size: 17px;
