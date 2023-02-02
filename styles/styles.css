@@ -68,9 +68,12 @@ h3 {
 }
 
 .footer-link {
-  font-size: 18px;
+  font-size: 17px;
   text-decoration: none;
-  color: var(--primary-color);
+  color: var(--background-color);
+}
+.footer-link:hover {
+  color: var(--accent-color);
 }
 
 .navigation-link {
@@ -89,7 +92,6 @@ h3 {
   color: white;
 }
 
-.footer-link:hover,
 .showcase-link:hover,
 .contact-link:hover {
   color: var(--primary-color);
@@ -97,7 +99,7 @@ h3 {
 }
 i {
   font-size: 18px;
-  color: var(--primary-color);
+  color: var(--background-color);
 }
 .about-me-content {
   padding: 40px;
@@ -113,8 +115,19 @@ i {
   text-align: justify;
 }
 .open-source {
-  font-size: 15px;
+  font-size: 17px;
   padding-bottom: 5px;
+}
+footer {
+  background-image: linear-gradient(
+      rgba(48, 71, 94, 0.9),
+      rgba(48, 71, 94, 0.9)
+    ),
+    url("/images/horizonofmarbella.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  color: white;
 }
 
 @media (max-width: 1000px) {
