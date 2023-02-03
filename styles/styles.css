@@ -173,4 +173,11 @@ footer {
   .showcase-link {
     font-size: 15px;
   }
+  .contact-image {
+    display: block;
+    margin: 0 auto;
+  }
+  .contact-info p {
+    text-align: center;
+  }
 }
