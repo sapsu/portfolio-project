@@ -40,7 +40,7 @@ h3 {
     ),
     url("/images/horizonofmarbella.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
 }
 
