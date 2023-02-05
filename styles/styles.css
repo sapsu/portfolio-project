@@ -59,6 +59,12 @@ h3 {
   margin-top: 100px;
   margin-bottom: 100px;
 }
+.showcase-grid img {
+  transition: 100ms ease-in-out all;
+}
+.showcase-grid img:hover {
+  transform: scale(1.1);
+}
 
 .showcase-link,
 .contact-link {
